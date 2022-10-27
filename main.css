@@ -1,0 +1,145 @@
+:root {
+  --mainContainerColor: #9fafca;
+  --mainMainColor: #0e378a;
+  --mainFont: Arial, Helvetica, sans-serif;
+  --mainColorText: white;
+}
+
+body {
+  background-color: var(--mainMainColor);
+}
+
+.container {
+  position: relative;
+  top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.main {
+  color: var(--mainColor);
+  background-color: var(--mainContainerColor);
+  width: 900px;
+  height: 450px;
+  display: flex;
+  justify-content: center;
+  border-radius: 30px;
+  border: 5px dashed var(--mainMainColor);
+}
+
+.title {
+  height: 100px;
+  width: 400px;
+  position: absolute;
+  top: 50px;
+  color: var(--mainColorText);
+  background-color: var(--mainMainColor);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 15px;
+  font-family: var(--mainFont);
+}
+
+.Output {
+  height: 100px;
+  width: 400px;
+  position: absolute;
+  color: var(--mainColorText);
+  background-color: var(--mainMainColor);
+  position: absolute;
+  top: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 15px;
+}
+
+.Output input {
+  width: 380px;
+  height: 80px;
+  outline: none;
+  border: none;
+  border-radius: 10px;
+  font-size: 30px;
+  text-align: center;
+  font-family: var(--mainFont);
+  color: var(--mainContainerColor);
+  background-color: var(--mainMainColor);
+}
+
+.Output input:hover {
+  width: 380px;
+  height: 80px;
+  border: solid 3px var(--mainContainerColor);
+  border-radius: 10px;
+  font-size: 30px;
+  font-family: var(--mainFont);
+  color: var(--mainColorText);
+  background-color: #37548f;
+}
+
+.Button {
+  width: 200px;
+  height: 50px;
+  color: var(--mainContainerColor);
+  background-color: var(--mainMainColor);
+  outline: none;
+  border: none;
+  border-radius: 10px;
+  position: absolute;
+  top: 350px;
+  display: flex;
+  justify-content: center;
+}
+
+.Button button {
+  width: 200px;
+  height: 50px;
+  color: var(--mainContainerColor);
+  background-color: var(--mainMainColor);
+  outline: none;
+  border: none;
+  border-radius: 10px;
+  font-weight: bold;
+}
+
+.Button button:hover {
+  background-color: #37548f;
+  color: var(--mainColorText);
+}
+
+#copy {
+  height: 40px;
+  width: 400px;
+  background-color: var(--mainMainColor);
+  position: relative;
+  top: 150px;
+  font-size: 20px;
+  border: none;
+  font-weight: bold;
+  color: var(--mainContainerColor);
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#copy:hover {
+  background-color: #37548f;
+  color: var(--mainColorText);
+}
+
+.Heart {
+  position: absolute;
+  top: 422px;
+}
+
+.Heart a {
+  font-weight: bold;
+  font-family: var(--mainFont);
+  color: var(--mainMainColor);
+  text-decoration: none;
+  font-size: large;
+}
